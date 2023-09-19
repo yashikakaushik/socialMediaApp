@@ -1,0 +1,44 @@
+.ic428Container {
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px 5px var(--shadow);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 25px;
+}
+
+.ic428Posts {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    aspect-ratio: 9/12;
+
+}
+
+.ic156Image {
+    height: 100%;
+    width: 100%;
+}
+
+.ic956Options {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.ic956Options :hover{
+    color: var(--purple);
+}
+
+@media (max-width: 600px) {
+    .ic956Options {
+        /* min-width:250px; */
+        /* margin-top: 1rem; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}

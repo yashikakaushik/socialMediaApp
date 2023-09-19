@@ -1,0 +1,82 @@
+.ui983Container{
+    /* width: 100%; */
+    padding: 1rem;
+}
+
+.ui402Background{
+    height: 12rem;
+    background-color: var(--purple);
+}
+
+.ui983EditProfileButton {
+    background-color: var(--purple);
+    color: white;
+    margin-right: 3rem;
+    padding: 1rem 2rem;
+    border-radius:50rem;
+    border: none;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.ui983EditProfileButton:hover {
+    filter: brightness(0.8);
+}
+
+.ui107ImageRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ui983ProfileImage {
+    border-radius: 50%;
+    border: 10px solid var(--white);
+    margin-top: -75px;
+    margin-left: 3rem;
+}
+
+.ui235Row2{
+    margin-left: 4rem;
+}
+
+.ui983ProfileName{
+    opacity: 0.8;
+    color: var(--purple);
+}
+
+.ui983UserBio{
+    margin-top: 1rem;
+    opacity: 0.8;
+    padding-right: 2rem;
+}
+.ui983UserName{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ui761Cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    gap:1rem;
+}
+
+.ui983Card{
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px var(--shadow);
+}
+
+@media only screen and (max-width: 600px) {
+    .ui983Card{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+} 

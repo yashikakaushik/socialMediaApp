@@ -1,0 +1,84 @@
+.feedCard930Container{
+    border-radius: 10px;
+    width: 40%;
+    padding: 15px;
+    /* margin-top: 2rem; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px 5px var(--shadow);
+    min-width: 350px;
+    
+}
+
+.feedCard990Header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    padding: 5px 0 5px 10px;
+    display: flex;
+}
+
+.feedCard934ProfilePic{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.fc847ProfileImage{
+  border-radius: 100%;
+}
+
+.feedCard456HeaderText{
+  text-align: center;
+  padding: 0;
+  line-height: 0.2;
+  margin-left: 10px;
+  color: var(--brown);
+}
+
+.feedCard420Post {
+  min-width: 350px;
+  width: 30%;
+  height: 40%;
+  position: relative;
+  aspect-ratio: 9/12;
+}
+
+.feedCard230PostImg{
+  height: 100%;
+  width: 100%;
+}
+
+
+.fc672Options{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: var(--brown);
+
+}
+
+.fc502ProfileName{
+  opacity: 0.7;
+  color: var(--purple);
+}
+
+.Like{
+  color: var(--purple);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fc378OptionsItem{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

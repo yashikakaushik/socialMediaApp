@@ -1,0 +1,42 @@
+.pp729Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pp379Row {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+@media (max-width: 600px) {
+    .pp379Row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media  (max-width: 768px){
+    .pp379Row{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+.pp503UserInfo{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pp825ViewButton{
+    padding: 3rem;
+    height: 10px;
+
+}

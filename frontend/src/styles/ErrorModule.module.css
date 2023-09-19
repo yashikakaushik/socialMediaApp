@@ -1,0 +1,38 @@
+/* styles.css */
+.errorModule {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--red);
+    color: var(--white);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+  }
+  
+  .errorMessage {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .closeButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .closeButton:hover {
+    text-decoration: underline;
+  }
+  
